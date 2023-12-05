@@ -1,0 +1,32 @@
+.about {
+  background-color: $white;
+  height: 365px;
+  padding-top: 121px;
+  @media (max-width: 768px){
+    &{
+    padding-top: 60px;
+    height: 320px;
+    }
+  }
+}
+
+.about__title {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 540px;
+  color: $black;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.about__text {
+  display: flex;
+  margin: 0 auto;
+  max-width: 540px;
+  color: $grey;
+  text-align: center;
+  font-weight: 400;
+  line-height: $line-height;
+}
