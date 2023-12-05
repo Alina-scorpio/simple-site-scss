@@ -1,4 +1,4 @@
-/*Header*/
+@use "../../common/variables";
 .header {
   width: 100%;
   padding-top: 70px;
@@ -19,9 +19,7 @@
     display: flex;
     gap: clamp(20px, 3vw, 34px);
     @media (max-width: 768px) {
-      & {
-        justify-content: center;
-      }
+      justify-content: center;
   }
   }
   &__item {
@@ -31,10 +29,10 @@
     font-size: clamp(0.875rem, 0.739rem + 0.36vw, 1rem);
     display: block;
     width: 100%;
-    color: $black;
+    color: variables.$black;
     text-transform: uppercase;
     text-decoration: none;
-    letter-spacing: $letter-spacing;
+    letter-spacing: variables.$letter-spacing;
   }
 }
 

@@ -1,6 +1,7 @@
+@use "../../common/variables";
 .experience {
   width: 100%;
-  background-color: $accent;
+  background-color: variables.$accent;
   overflow: hidden;
   &__cards {
     width: 100%;
@@ -12,19 +13,14 @@
     padding-right: 10px;
     margin: 0 auto;
     @media (max-width: 985px) {
-      & {
         justify-content: center;
         gap: 50px;
         height: fit-content;
         padding-top: 40px;
         padding-bottom: 40px;
-      }
     }
   }
 }
-
-
-
 .card {
   width: 141px;
   height: 50px;
@@ -42,13 +38,13 @@
   }
   
   &__number {
-    color: $white;
+    color: variables.$white;
     font-size: 21px;
     font-weight: 500;
   }
   
   &__text {
-    color: $white;
+    color: variables.$white;
     font-weight: 400;
   }
   

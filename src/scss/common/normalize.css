@@ -210,7 +210,6 @@ select {
  * Correct the inability to style clickable types in iOS and Safari.
  */
 
-
 /**
  * Remove the inner border and padding in Firefox.
  */
@@ -302,16 +301,6 @@ textarea {
   height: auto;
 }
 
-/**
- * 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari.
- */
-
-
-
-/**
- * Remove the inner padding in Chrome and Safari on macOS.
- */
 
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
