@@ -1,4 +1,4 @@
-@use "../../common/variables";
+@use "../../common" as *;
 .header {
   width: 100%;
   padding-top: 70px;
@@ -29,10 +29,10 @@
     font-size: clamp(0.875rem, 0.739rem + 0.36vw, 1rem);
     display: block;
     width: 100%;
-    color: variables.$black;
+    color: $black;
     text-transform: uppercase;
     text-decoration: none;
-    letter-spacing: variables.$letter-spacing;
+    letter-spacing: $letter-spacing;
   }
 }
 

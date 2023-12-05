@@ -1,7 +1,7 @@
-@use "../../common/variables";
+@use "../../common" as *;
 .experience {
   width: 100%;
-  background-color: variables.$accent;
+  background-color: $accent;
   overflow: hidden;
   &__cards {
     width: 100%;
@@ -38,13 +38,13 @@
   }
   
   &__number {
-    color: variables.$white;
+    color: $white;
     font-size: 21px;
     font-weight: 500;
   }
   
   &__text {
-    color: variables.$white;
+    color: $white;
     font-weight: 400;
   }
   

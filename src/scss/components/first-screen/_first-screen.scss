@@ -1,4 +1,4 @@
-@use "../../common/variables";
+@use "../../common" as * ;
 .first-screen {
   width: 100%;
   padding-top: 20px;
@@ -11,7 +11,7 @@
   }
   }
   &__title {
-    color: variables.$black;
+    color: $black;
     font-size: 3rem;
     font-weight: 500;
     margin-top: 10px;
@@ -24,9 +24,9 @@
   }
   &__text {
     max-width: 540px;
-    color: variables.$grey;
+    color: $grey;
     font-weight: 400;
-    line-height: variables.$line-height;
+    line-height: $line-height;
     font-size: clamp(0.875rem, 0.739rem + 0.36vw, 1rem);
     @media (max-width: 768px) {
         text-align: center;
@@ -35,7 +35,7 @@
   &__btn {
     width: 225px;
     height: 65px;
-    background-color: variables.$accent;
+    background-color: $accent;
     margin-top: 55px;
     margin-bottom: 132px;
     @media (max-width: 768px){
@@ -50,10 +50,10 @@
     align-items: center;
     justify-content: center;
     height: 100%;
-    color: variables.$white;
+    color: $white;
     text-transform: uppercase;
     font-weight: 400;
-    letter-spacing: variables.$letter-spacing;
+    letter-spacing: $letter-spacing;
   }
 }
 
